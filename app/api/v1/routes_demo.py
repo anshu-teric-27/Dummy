@@ -24,3 +24,12 @@ def get_demo_item(item_id: int):
 def create_demo_item(payload: DemoCreate):
     return demo_service.create_item(payload)
 
+
+@router.get("/users/me", response_model=DemoItem)
+def get_current_user():
+    return {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+    }
+

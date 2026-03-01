@@ -267,7 +267,9 @@ if __name__ == "__main__":
     script_dir = Path(__file__).resolve().parent
     # scripts/ -> app/ -> python_demo_api/ -> roam_test/
     default_roam_formatted = (script_dir.parents[2] / "roam_data" / "block_7p3IykGtW_formatted.json").resolve()
-    default_output = (script_dir / "out" / "api_contract_report.json").resolve()
+    # Write the report outside the git repo (into roam_data) so pre-commit
+    # can generate it freely without causing commit failures.
+    default_output = (script_dir.parents[2] / "roam_data" / "api_contract_report.json").resolve()
 
     parser = argparse.ArgumentParser(description="Validate implemented FastAPI routes against formatted Roam endpoints.")
     parser.add_argument("--roam-formatted", type=Path, default=default_roam_formatted, help="Path to formatted Roam JSON")

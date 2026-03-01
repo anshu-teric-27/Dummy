@@ -1,14 +1,18 @@
 {
     "summary": {
         "total_documented": 3,
-        "total_implemented": 7,
+        "total_implemented": 8,
         "matching_count": 0,
-        "undocumented_count": 7,
+        "undocumented_count": 8,
         "missing_count": 3,
         "match_percentage_against_documented": 0.0
     },
     "matching_routes": [],
     "undocumented_routes": [
+        [
+            "GET",
+            "/api/v1/api/v1/users/me"
+        ],
         [
             "GET",
             "/api/v1/items"
@@ -135,7 +139,7 @@
     "meta": {
         "generated_at": "2026-03-02",
         "roam_source": {
-            "generated_at": "2026-03-01T18:42:41.479509Z",
+            "generated_at": "2026-03-01T18:49:28.759999Z",
             "source_file": "/Users/tericsoft/Documents/Try-outs/roam_test/roam_data/block_7p3IykGtW.json",
             "block_uid": "7p3IykGtW",
             "page_title": "Anshu App",
