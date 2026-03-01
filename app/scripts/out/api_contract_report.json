@@ -1,0 +1,145 @@
+{
+    "summary": {
+        "total_documented": 3,
+        "total_implemented": 7,
+        "matching_count": 0,
+        "undocumented_count": 7,
+        "missing_count": 3,
+        "match_percentage_against_documented": 0.0
+    },
+    "matching_routes": [],
+    "undocumented_routes": [
+        [
+            "GET",
+            "/api/v1/items"
+        ],
+        [
+            "GET",
+            "/api/v1/items/{item_id}"
+        ],
+        [
+            "GET",
+            "/docs"
+        ],
+        [
+            "GET",
+            "/docs/oauth2-redirect"
+        ],
+        [
+            "GET",
+            "/openapi.json"
+        ],
+        [
+            "GET",
+            "/redoc"
+        ],
+        [
+            "POST",
+            "/api/v1/items"
+        ]
+    ],
+    "missing_implementations": [
+        [
+            "GET",
+            "/api/v1/authenticate"
+        ],
+        [
+            "GET",
+            "/api/v1/test"
+        ],
+        [
+            "GET",
+            "/api/v1/users/me"
+        ]
+    ],
+    "roam_summary": {
+        "status_counts": {
+            "inprogress": 1,
+            "todo": 1,
+            "completed": 1
+        },
+        "overdue_count": 2,
+        "overdue_pending_count": 2,
+        "matching_count_against_roam_endpoints": 0,
+        "by_project": {
+            "lithium": {
+                "documented": 3,
+                "matching": 0,
+                "missing": 3,
+                "completed": 1,
+                "pending": 2,
+                "updated": 0,
+                "overdue": 2
+            }
+        }
+    },
+    "documented_endpoints": [
+        {
+            "method": "GET",
+            "path": "/api/v1/users/me",
+            "implemented": false,
+            "status": "inprogress",
+            "status_bucket": "inprogress",
+            "deadline": "2026-01-10",
+            "is_overdue": true,
+            "project": "lithium",
+            "module": "user",
+            "owner": "anshu",
+            "endpoint_name": "get_current_user_profile",
+            "api_version": "v1",
+            "source": {
+                "block_uid": "nV-NhLx9x",
+                "page_title": "Anshu App",
+                "page_uid": "7p3IykGtW"
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/api/v1/authenticate",
+            "implemented": false,
+            "status": "todo",
+            "status_bucket": "todo",
+            "deadline": "2026-01-10",
+            "is_overdue": true,
+            "project": "lithium",
+            "module": "user",
+            "owner": "anshu",
+            "endpoint_name": "get_current_user_profile",
+            "api_version": "v1",
+            "source": {
+                "block_uid": "PGKyZOSgG",
+                "page_title": "Anshu App",
+                "page_uid": "7p3IykGtW"
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/api/v1/test",
+            "implemented": false,
+            "status": "complete",
+            "status_bucket": "completed",
+            "deadline": "2026-01-10",
+            "is_overdue": false,
+            "project": "lithium",
+            "module": "user",
+            "owner": "anshu",
+            "endpoint_name": "get_current_user_profile",
+            "api_version": "v1",
+            "source": {
+                "block_uid": "lICCgx6EU",
+                "page_title": "Anshu App",
+                "page_uid": "7p3IykGtW"
+            }
+        }
+    ],
+    "meta": {
+        "generated_at": "2026-03-02",
+        "roam_source": {
+            "generated_at": "2026-03-01T18:42:41.479509Z",
+            "source_file": "/Users/tericsoft/Documents/Try-outs/roam_test/roam_data/block_7p3IykGtW.json",
+            "block_uid": "7p3IykGtW",
+            "page_title": "Anshu App",
+            "page_uid": "7p3IykGtW"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "apis": [
+    {
+      "endpoint": "/users/me",
+      "project": "unknown",
+      "status": "unknown",
+      "dev": "unknown"
+    },
+    {
+      "endpoint": "/authenticate",
+      "project": "unknown",
+      "status": "unknown",
+      "dev": "unknown"
+    },
+    {
+      "endpoint": "/test",
+      "project": "unknown",
+      "status": "unknown",
+      "dev": "unknown"
+    }
+  ],
+  "summary": {
+    "by_user": {
+      "unknown": {
+        "unknown": {
+          "completed": 0,
+          "pending": 3
+        }
+      }
+    },
+    "by_project": {
+      "unknown": {
+        "completed": 0,
+        "pending": 3
+      }
+    }
+  }
+}
