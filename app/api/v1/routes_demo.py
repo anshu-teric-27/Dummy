@@ -20,7 +20,7 @@ def get_demo_item(item_id: int):
     return item
 
 
-@router.post("/api/v1/authenticate", response_model=DemoItem, status_code=201)
+@router.post("/authenticate", response_model=DemoItem, status_code=201)
 def create_demo_item(payload: DemoCreate):
     return demo_service.create_item(payload)
 
